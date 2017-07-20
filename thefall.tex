@@ -1,8 +1,15 @@
 \newcommand*{\memfontfamily}{pnc}
 \newcommand*{\memfontpack}{newcent}
-\documentclass[openany, twoside, 14pt, extrafontsizes]{memoir}
+\documentclass[openany, twoside, 12pt, extrafontsizes]{memoir}
 \usepackage{footnotebackref}
-\usepackage[paperwidth=6in,paperheight=9in,margin=.6in,bmargin=1in, twoside, bindingoffset=.7in]{geometry}
+%\usepackage[paperwidth=6in,paperheight=9in,margin=.6in,bmargin=0.7in, twoside, bindingoffset=.7in]{geometry}
+\setstocksize{8.5in}{5.5in} %Finale
+\settrimmedsize{7.5in}{5.0in}{*}
+\settrims{0.5in}{0.5in}
+\setlrmarginsandblock{0.5in}{0.5in}{*}%%%%
+\setulmarginsandblock{0.5in}{0.5in}{*}
+\checkandfixthelayout
+
 \usepackage{graphicx}
 
 \newcommand{\tbreak}{
