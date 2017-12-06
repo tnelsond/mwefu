@@ -8,6 +8,11 @@
 *.toc
 *.fmt
 
+# HTML Files
+*.html
+*.css
+*.4ct
+
 # Vim Files
 *.sw*
 
