@@ -7,6 +7,10 @@
 *.out
 *.toc
 *.fmt
+*.lg
+*.xref
+*.4tc
+*.idv
 
 # HTML Files
 *.html
