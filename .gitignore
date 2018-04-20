@@ -11,11 +11,13 @@
 *.xref
 *.4tc
 *.idv
+*.dvi
 
 # HTML Files
 *.html
 *.css
 *.4ct
+thefall/*
 
 # Vim Files
 *.sw*
