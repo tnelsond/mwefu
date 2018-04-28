@@ -12,6 +12,7 @@
 *.4tc
 *.idv
 *.dvi
+*.pdf
 
 # HTML Files
 *.html
